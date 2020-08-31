@@ -1,0 +1,606 @@
+/*
+Theme Name: BlankSlate
+Theme URI: https://github.com/tidythemes/blankslate
+Author: TidyThemes
+Author URI: http://tidythemes.com/
+Description: Please read: tidythemes.com/concept. BlankSlate is the definitive WordPress HTML5 boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Version: 2019.1
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Text Domain: blankslate
+
+BlankSlate WordPress Theme © 2011-2019 TidyThemes
+BlankSlate is distributed under the terms of the GNU GPL
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}button{outline:0}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}q{display:inline;font-style:italic}q:before{content:'"';font-style:normal}q:after{content:'"';font-style:normal}textarea,input[type="text"],input[type="button"],input[type="submit"],input[type="reset"],input[type="search"],input[type="password"]{-webkit-appearance:none;appearance:none;border-radius:0}table{border-collapse:collapse;border-spacing:0}th,td{padding:2px}big{font-size:120%}small,sup,sub{font-size:80%}sup{vertical-align:super}sub{vertical-align:sub}dd{margin-left:20px}kbd,tt{font-family:courier;font-size:12px}ins{text-decoration:underline}del,strike,s{text-decoration:line-through}dt{font-weight:bold}address,cite,var{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    background: #EDE7EF;
+}
+
+
+
+#container {
+    max-width: 1100px;
+    margin: 0px 20px 80px 180px;
+}
+
+
+
+#logo{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+
+#content{
+    width: 52%;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.widget-area{
+    width: 34%;
+    float: right;
+}
+
+#footer{
+    background: #EDE7EF;
+    clear: both;
+    margin-left: 300px;
+    float: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px; 
+}
+
+ul.footer{
+    font-size: .8em;
+}
+
+footer li {
+    float: left;
+    margin-right: 15px;
+    list-style-type: none;
+    line-height: 50px;
+    }
+
+footer li a {
+    color: #000;
+}
+
+.social-media{
+    float: right;
+    margin: 5px 300px 5px 0px;
+}
+img.social{
+    max-width: 80%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/******** FRONT PAGE ********/
+/******** FRONT PAGE ********/
+/******** FRONT PAGE ********/
+
+.front-page{
+    min-height: 400px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.front-page-cases{
+    min-height: 350px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.entry-content{
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+
+h1.site-intro{
+        font-family: 'Unica One', cursive;
+        font-size: 5.5em;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: #37293D;
+
+    }
+
+h3.site-intro{
+    margin-bottom: 50px;
+}
+
+
+a.button-hero {
+    background: #37293D;
+    color:white; 
+    font-family: 'Unica One', cursive;
+    font-size: 1.2em;
+    letter-spacing: 1.3px;
+    padding: 20px 15px;
+    margin: 20px -100px;
+    box-shadow: grey 2px 2px 1px;
+    border-radius: 10px 2px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    position: absolute;
+
+}
+
+a.button {
+    color:black; 
+    font-family: 'Unica One', cursive;
+    font-size: 1.2em;
+    letter-spacing: 1.3px;
+    margin-top:20px;
+}
+
+a.button:hover {
+    color:gray; 
+    text-decoration: overline;
+}
+
+a.work-button {
+    color:black; 
+    font-family: 'Unica One', cursive;
+    font-size: 1.2em;
+    letter-spacing: 1.3px;
+    margin-top:20px;
+}
+
+a.work-button:hover {
+    color:gray; 
+    text-decoration: overline;
+}
+
+.case-button{
+    height: 100px;
+    width: 100%;
+}
+
+.case-img{
+    height: 200px;
+    width: auto;
+}
+
+.row {
+    margin-bottom: 5px;
+    margin-top:10px;
+    overflow: hidden;
+    clear: both;
+        }
+
+.work-row {
+    margin-bottom: 5px;
+    margin-top:75px;
+    overflow: hidden;
+    clear: both;
+        }
+
+.col-8 {
+    width: 47%;
+    height: 450px;
+    float: left;
+    margin-right: 10px;
+    align-content: center;
+    background: #EDE7EF;
+    box-shadow: grey 2px 2px 10px;
+    color: black;
+    margin: 20px 10px;
+    padding: 20px;
+                }
+
+.work-col-8 {
+    width: 60%;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    align-content: center;
+    color: black;
+    margin: 20px 10px;
+    padding: 20px;
+                }
+
+.work-col-8-2 {
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    align-content: center;
+    color: black;
+    margin: 20px 10px;
+    padding: 20px;
+                }
+
+.work-img{
+    box-shadow: grey 2px 2px 10px;
+    width: 100%;
+    height: auto;
+}
+
+.third:last-of-type,
+.col-8:last-of-type
+    {
+    margin-right: 0;
+            }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****** NAVIGATION ********/
+/****** NAVIGATION ********/
+/****** NAVIGATION ********/
+
+.nav-button { 
+	display: none; 
+} /* hide the navigation button by default */
+
+
+#header {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('http://www.claraposton.design/wp-content/uploads/header-pic-low.png');
+    background-size: 1000px 810px;
+    background-repeat: no-repeat;
+    box-shadow: #37293D 2px 2px 10px;
+}
+
+
+.nav li{
+    height: 35px;
+    line-height: 35px;
+
+}
+
+.nav li a{ 
+    text-decoration: none;
+    padding-left: 20px;
+    margin: 25px 0px;
+    display: block;
+    font-family: 'Unica One', cursive;
+    letter-spacing: 1.2px;
+    font-size:1.5em;
+    color: black;
+
+}
+
+.nav li a:hover{ 
+    background: #37293D;
+    color: white;
+}
+
+.sub-menu{
+	display: none;
+}
+
+
+#menu li:hover .sub-menu {
+	display: block;
+    background: #37293D;
+    color: white;
+    font-weight: bolder;
+
+}
+
+#menu li:hover .sub-menu li a{
+    background: #37293D;
+    color: white;
+    margin: 10px;
+
+}
+
+
+/******** TYPOGRAPHY ***********/
+/******** TYPOGRAPHY ***********/
+/******** TYPOGRAPHY ***********/
+
+@font-face{
+    font-family: Anders;
+    src:url(fonts/Anders.ttf);
+
+}
+
+@font-face{
+    font-family: Axel;
+    src:url(fonts/BNAxelGrotesk-Bold.otf);
+}
+
+h1{
+    font-family: 'Unica One', cursive;
+    font-size: 3.5em;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+h2{
+    font-size:1.8em;
+    letter-spacing: 1.2px;
+    margin: 30px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
+
+
+h3{
+    font-size: 1.4em;
+    margin: 30px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* *****************************************/
+/* ********** MOBILE *********************/
+/* ***************************************/
+
+@media only screen and (max-width: 700px) {
+
+    /* #header{
+        display:none;
+    } */
+
+    .inner-page .widget-area{
+        width: auto;
+        float: none;
+        border: none;
+        }
+    
+    .inner-page .main-site{
+        width: auto;
+        float: none;
+        }
+    
+    #header{
+        position: static;
+        width:100%;
+        margin: 0;
+        padding: 0;
+        background: url('http://www.claraposton.design/wp-content/uploads/header-pic-low-mobile.png');
+        }
+
+#container{
+    width:100%;
+    margin: 5px;
+
+}
+
+#footer{
+    width: 100%;
+    margin:0;
+    padding: 5px;
+}
+
+.entry-content{
+    margin: 10px;
+}
+
+#logo{
+    margin:5px;
+    padding: 5px;
+}
+    
+    
+.col-8 {
+width: 98%;
+height: auto;
+float: none;
+align-content: center;
+margin-bottom: 20px;
+    }
+    
+.col-8 img{
+    margin: 0 auto;
+    }
+    
+.third {
+    width: auto;
+    float: none;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+.third img {
+    margin: 0 auto;
+    }
+    
+.inner {
+    margin: 0 15px;
+    }
+    
+#wrapper {
+    margin: 30px 15px;
+    }
+
+a.button-hero {
+    color:black; 
+    font-family: 'Unica One', cursive;
+    font-size: 1em;
+    letter-spacing: 1.1px;
+    margin:10px 0;
+}
+
+a.button-hero:hover {
+    color:gray; 
+    text-decoration: overline;
+}
+    
+    
+    
+	/* Navigation Button
+	-------------------------------------------------------- */
+
+	
+	/* Navigation Button
+	-------------------------------------------------------- */
+
+	.nav-button {
+		display: block;
+		position: absolute;
+		top: 7px;
+		left: 7px;
+		width: 50px;
+		height: 35px;
+		background: url('http://www.claraposton.design/wp-content/uploads/menu-icon-large.png'), linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+		cursor: pointer;
+		border: 0 none;
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
+		border-radius: 5px;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+	.nav-button:hover {
+		background-color: rgba(0,0,0,.1);
+	}
+	.nav-button.open {
+		background: url('http://www.claraposton.design/wp-content/uploads/close-icon-large.png'), linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+	}
+
+	/* Navigation Bar
+	-------------------------------------------------------- */
+
+	body { padding-top: 50px; }
+
+	.primary-nav {
+		width: 100%;
+		float: none;
+		background-color: #37293D; /* change the menu color */
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		box-shadow: 0 1px 2px rgba(0,0,0,.6);
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 998;
+		clear: both;
+	}
+	.primary-nav li {
+		display: none;
+		width: 100%;
+		font-family: Arial;
+	}
+	.primary-nav li a {
+        display: block;
+        margin: 5px 0px;
+		width: 100%;
+		padding: 0px 5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid rgba(255,255,255,.1);
+	}
+	.primary-nav li a:hover {
+		background-color: rgba(0,0,0,.5);
+		border-top-color: transparent;
+	}
+	.primary-nav > li:first-child {
+		border-top: 1px solid rgba(0,0,0,.2);
+	}
+
+	/* Toggle the navigation bar open  */
+
+	.primary-nav.open {
+		height: auto;
+		padding-top: 50px;
+	}
+	.primary-nav.open li {
+		display: block;
+	}
+
+	/* Submenus – optional .parent class indicates dropdowns */
+
+	.primary-nav > li:hover > a {
+		background: rgba(0,0,0,.5);
+		border-bottom-color: transparent;
+	}
+	.primary-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+	.primary-nav li.parent > a:hover {
+		background: rgba(0,0,0,.75);
+	}
+	.primary-nav li ul {
+		display: none;
+		background: rgba(0,0,0,.5);
+		border-top: 0 none;
+		padding: 0;
+	}
+	.primary-nav li ul a {
+		border: 0 none;
+		font-size: 12px;
+		padding: 10px 5%;
+		font-weight: normal;
+	}
+	.primary-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}
+
+} /* End Mobile Styles */
